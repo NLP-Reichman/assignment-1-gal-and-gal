@@ -14,7 +14,15 @@
     "en_on_tl": 70.61,
     "en_on_nl": 61.43
   },
-  "test_match": "ValueError('cannot set a frame with no defined columns')",
+  "test_match": {
+    "df_shape": [
+      256,
+      4
+    ],
+    "en_en_3": 26.746187558649805,
+    "en_tl_3": 70.61221075939099,
+    "en_nl_3": 61.427310758505165
+  },
   "test_generate": {
     "english_2_gram": "I amoulpeginShmee bie ae",
     "english_3_gram": "I amit: Lynmkm ways.<end>",
